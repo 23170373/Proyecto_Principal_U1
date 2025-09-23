@@ -24,6 +24,22 @@
 
 package Biblioteca;
 
-public class Principal {
+public class Principal extends javax.swing.JFrame {
+
+    public Principal(String title) {
+        super(title);
+        initComponents();
+        this.setLocationRelativeTo(null);
+
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setVisible(true);
+    }
+
+    public initComponents() {
+        // Código generado por el editor GUI para inicializar componentes
+        
+    }
+
+
 
 }
