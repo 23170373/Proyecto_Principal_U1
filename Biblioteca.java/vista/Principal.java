@@ -1,3 +1,7 @@
+package vista;
+
+import javax.swing.JFrame;
+
 //Sistema de Control Bibliotecario
 
 /*  Objetivo:
@@ -21,10 +25,7 @@
  *  6. Mensajes de confirmación y error.|
  */
 
-
-package Biblioteca;
-
-public class Principal extends javax.swing.JFrame {
+public class Principal extends JFrame{
 
     public Principal(String title) {
         super(title);

@@ -1,4 +1,6 @@
-package Biblioteca;
+package App;
+
+import vista.Principal;
 
 public class AppBiblioteca {
     
